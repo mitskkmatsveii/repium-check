@@ -1,7 +1,6 @@
 from http.server import BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 
-# Сюда добавляй ключи когда кто-то платит
 VALID_KEYS = [
     "PREM-A1B2-C3D4",
     "PREM-X9Y8-Z7W6",
